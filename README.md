@@ -22,7 +22,7 @@ Adapte les sections (projets, liens, contributions) avec des données réelles.
   <a href="mailto:anas.lahboub@edu.uiz.ac.ma">
     <img src="https://img.shields.io/badge/Contact-Email-informational?style=for-the-badge&logo=gmail" />
   </a>
-  <a href="https://www.linkedin.com/in/REPLACE_LINK">
+  <a href="https://www.linkedin.com/in/anas-lahboub-884a92283">
     <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" />
   </a>
 </p>
