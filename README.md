@@ -6,7 +6,7 @@ Adapte les sections (projets, liens, contributions) avec des données réelles.
 <!-- Bannière (optionnelle) -->
 <p align="center">
   <!-- Remplace par ton image si existante -->
-  <img src="https://raw.githubusercontent.com/anaslahboub/anaslahboub/main/assets/banner.png" alt="Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/anaslahboub/anaslahboub/main/banner.png" alt="Banner" width="100%" />
 </p>
 
 <h1 align="center">Salut, moi c’est Anas 👋</h1>
