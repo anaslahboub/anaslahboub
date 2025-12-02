@@ -155,54 +155,6 @@ Adapte les sections (projets, liens, contributions) avec des données réelles.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anaslahboub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
 </p>
 
----
-
-## 🧪 Extrait de Code Représentatif
-
-```java
-// Exemple: Service résilient avec retry + circuit breaker (pseudo-code)
-@Service
-public class InventoryService {
-
-    private final InventoryClient client;
-
-    public InventoryService(InventoryClient client) {
-        this.client = client;
-    }
-
-    @Retry(name = "inventoryRetry", fallbackMethod = "fallbackQuantity")
-    @CircuitBreaker(name = "inventoryCircuit", fallbackMethod = "fallbackQuantity")
-    public int getAvailableQuantity(String productId) {
-        var response = client.fetchInventory(productId);
-        if (response.isError()) throw new IllegalStateException("Inventory API error");
-        return response.getQuantity();
-    }
-
-    private int fallbackQuantity(String productId, Throwable t) {
-        // Valeur de repli + log structuré
-        LoggerFactory.getLogger(InventoryService.class)
-            .warn("Fallback quantity for product {} due to {}", productId, t.getMessage());
-        return 0;
-    }
-}
-```
-
-```ts
-// Helper TypeScript : pattern Result + fetch robuste
-type Result<T> = { ok: true; data: T } | { ok: false; error: string };
-
-export async function safeFetch<T>(url: string, init?: RequestInit): Promise<Result<T>> {
-  try {
-    const res = await fetch(url, init);
-    if (!res.ok) return { ok: false, error: `HTTP ${res.status}` };
-    return { ok: true, data: (await res.json()) as T };
-  } catch (e: any) {
-    return { ok: false, error: e.message ?? 'Unknown error' };
-  }
-}
-```
-
----
 
 ## 🕒 Timeline de Progression
 
@@ -250,17 +202,6 @@ Métriques (actuator / prometheus), logs corrélés, retry configuré, fallback 
 
 ---
 
-## ✅ Roadmap Personnelle
-
-- [ ] Déployer un cluster microservices avec observabilité complète (metrics + tracing)
-- [ ] Contribuer à ≥ 5 PRs significatives dans des projets open-source
-- [ ] Publier un article technique sur la sécurisation de services distribués
-- [ ] Créer un starter SaaS multi-tenant (auth, billing)
-- [ ] Atteindre 100+ étoiles sur un dépôt personnel
-- [ ] Mettre en place une stack CI/CD multi-environnements (dev/stage/prod)
-
----
-
 ## 📬 Contact
 
 | Canal | Détail |
@@ -304,54 +245,10 @@ Add real PRs/issues once published (I can help structure them).
 - Oracle Certified Associate – Java SE 8
 - Oracle Certified Professional – Java SE 17
 
-### ❓ FAQ
-**Why Java/Spring?** Rich ecosystem, maturity, reliability for modular scalable backends.  
-**Why React?** Strong component model, state management flexibility, large community.  
-**Work Style?** Domain boundaries, explicit contracts, target test coverage, CI validation gates, living documentation.  
-**Security Approach?** Least privilege, validated input, short-lived tokens, periodic secret rotation.  
-**Resilience & Monitoring?** Prometheus metrics, structured logs, circuit breakers, controlled fallbacks, load probes.
-
-### ✅ Personal Roadmap
-Same as French list (mirrored).
-
-### 📬 Contact
-| Channel | Info |
-|---------|------|
-| Email | anas.lahboub@edu.uiz.ac.ma |
-| GitHub | [anaslahboub](https://github.com/anaslahboub) |
-| Location | Taroudant, Morocco |
-| LinkedIn | (To add) |
-
----
 
 ## ✨ Citation / Quote
 > “Le meilleur code est celui que l’on n’a pas besoin d’expliquer.”  
 > “The best code is the one that doesn’t need explanation.”
-
----
-
-## 🛠 Suggestions d’Amélioration (à faire au fil du temps)
-- Ajouter section “Architecture Diagram” avec un schéma (Mermaid)
-- Ajouter un badge de build (GitHub Actions) d’un dépôt clé
-- Ajouter une section “Articles / Publications” (Medium, Dev.to…)
-- Lier un tableau de bord d’observabilité (Grafana screenshot)
-
----
-
-## 🧩 Comment Mettre à Jour
-1. Cloner / créer repo `anaslahboub/anaslahboub`
-2. Ajouter `assets/banner.png` si désiré
-3. Remplacer les liens (LinkedIn, projets, contributions)
-4. Mettre à jour la timeline chaque trimestre
-5. Ajouter PRs / issues open-source réelles dans le tableau dédié
-
----
-
-## 📝 Prochaines Infos à Me Donner (si tu veux une version encore plus personnalisée)
-- URLs exactes des projets
-- Statistiques (nb utilisateurs, temps de réponse, volumétrie)
-- PRs ou issues open-source (numéros + description)
-- Outils d’observabilité utilisés (Prometheus, Grafana, ELK…)
 
 ---
 
