@@ -29,24 +29,6 @@ Adapte les sections (projets, liens, contributions) avec des données réelles.
 
 ---
 
-## 🧭 Sommaire / Table of Contents
-- [FR – Version Française](#fr--profil)
-  - [À propos](#-à-propos)
-  - [Stack & Outils](#-stack--outils)
-  - [Projets Sélectionnés](#-projets-sélectionnés)
-  - [Contributions Open Source](#-contributions-open-source)
-  - [Statistiques](#-statistiques--activité)
-  - [Extrait de Code](#-extrait-de-code-représentatif)
-  - [Timeline](#-timeline-de-progression)
-  - [Formation & Certifications](#-formation--certifications)
-  - [FAQ](#-faq--questions-fréquentes)
-  - [Roadmap Personnelle](#-roadmap-personnelle)
-  - [Contact](#-contact)
-- [EN – English Version](#en--english-version)
-- [Credits / Footer](#-footer)
-
----
-
 ## FR – Profil
 
 ### 🚀 À propos
