@@ -3,28 +3,51 @@ Ce README s’affiche sur ton profil GitHub (repo: anaslahboub/anaslahboub).
 Adapte les sections (projets, liens, contributions) avec des données réelles.
 -->
 
-<!-- Bannière (optionnelle) -->
+
 <p align="center">
-  <!-- Remplace par ton image si existante -->
-  <img src="https://raw.githubusercontent.com/anaslahboub/anaslahboub/main/banner.png" alt="Banner" width="100%" />
+  <img src="banner.png" alt="Anas Lahboub – Java / Spring Boot / Microservices / Frontend" width="100%" />
 </p>
 
-<h1 align="center">Salut, moi c’est Anas 👋</h1>
-<h3 align="center">Étudiant ingénieur logiciel (ENSA Agadir) • Passionné par Java, Spring Boot, React & l’architecture microservices</h3>
+<h1 align="center">Anas Lahboub</h1>
+<h3 align="center">Java / Spring Boot • Microservices • React / Next.js • Angular • DevOps</h3>
+<p align="center">
+  Taroudant, Maroc · ENSA Agadir – 5ᵉ année Génie Logiciel
+</p>
 
 <p align="center">
   <a href="https://github.com/anaslahboub?tab=followers">
-    <img src="https://img.shields.io/github/followers/anaslahboub?label=Followers&style=for-the-badge" />
+    <img src="https://img.shields.io/github/followers/anaslahboub?label=Followers&style=for-the-badge" alt="GitHub Followers" />
   </a>
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=anaslahboub">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=anaslahboub" />
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=anaslahboub.anaslahboub">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=anaslahboub.anaslahboub" alt="Profile Visitors" />
   </a>
   <a href="mailto:anas.lahboub@edu.uiz.ac.ma">
-    <img src="https://img.shields.io/badge/Contact-Email-informational?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-anas.lahboub%40edu.uiz.ac.ma-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/anas-lahboub-884a92283">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Anas%20Lahboub-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17%2F21-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-3.3%E2%80%933.5-6DB33F?style=flat&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Cloud-Config%20%7C%20Gateway%20%7C%20Eureka-6DB33F?style=flat&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Keycloak-Identity-324152?style=flat&logo=keycloak&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL%2FMariaDB-DB-4479A1?style=flat&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-DB-47A248?style=flat&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Angular-20-DD0031?style=flat&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-14%2F15-000000?style=flat&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/NestJS-10-E0234E?style=flat&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-Server-E10098?style=flat&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeORM-PostgreSQL-FE0902?style=flat" />
+  <img src="https://img.shields.io/badge/SonarQube-Code_Quality-4E9BCD?style=flat&logo=sonarqube&logoColor=white" />
+  <img src="https://img.shields.io/badge/Stripe-Payments-626CD9?style=flat&logo=stripe&logoColor=white" />
 </p>
 
 ---
