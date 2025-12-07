@@ -165,8 +165,8 @@ Métriques (actuator / prometheus), logs corrélés, retry configuré, fallback 
 | Email | anas.lahboub@edu.uiz.ac.ma |
 | GitHub | [anaslahboub](https://github.com/anaslahboub) |
 | Localisation | Taroudant (Maroc) |
-| LinkedIn | (À compléter) |
-| Téléphone | 06 82 58 26 41 (optionnel – retire si confidentialité souhaitée) |
+| LinkedIn | https://www.linkedin.com/in/anas-lahboub-884a92283/ |
+| Téléphone | 06 82 58 26 41  |
 
 ---
 
