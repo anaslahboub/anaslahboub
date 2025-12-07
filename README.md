@@ -124,55 +124,6 @@ Adapte les sections (projets, liens, contributions) avec des données réelles.
 
 ---
 
-## 🔥 Projets Sélectionnés
-
-| Projet | Année | Description | Stack | Lien |
-|--------|-------|-------------|-------|------|
-| Plateforme de Chat Microservices | 2024 | Messagerie temps réel, indicateurs de frappe, présence en ligne, partage médias, fil social | Spring Boot, Angular, WebSocket, Keycloak, OpenFeign, PostgreSQL, Redis | (À ajouter) |
-| Système de Gestion de Pharmacie | 2024 | Suivi des stocks, ordonnances, ventes, architecture modulaire & résilience | Spring Boot, React, MySQL, Redis | (À ajouter) |
-| API de Transport & Logistique | 2025 | Gestion du suivi en temps réel + optimisation du schéma MySQL | Spring Boot, React, Docker, MySQL | (À ajouter) |
-| Starter Microservices | 2025 | Base prête (Auth, Gateway, Eureka, Observabilité basique) | Spring Cloud, Keycloak, Redis, Docker Compose | (À ajouter) |
-
-> Remplace (À ajouter) par les URLs GitHub. Je peux reformuler les descriptions si tu me donnes plus de détails (KPIs, volumes, défis techniques).
-
----
-
-## 👐 Contributions Open Source
-(À personnaliser — ajoute les liens exacts une fois tes PR / issues connues.)
-
-| Type | Repo | Numéro / Lien | Objet | Statut |
-|------|------|---------------|-------|--------|
-| PR | (ex: spring-projects/spring-boot) | #NNNN | Amélioration doc sur configuration OAuth2 | Merged |
-| Issue | (ex: reactjs/react.dev) | #NNNN | Proposition de clarification sur hooks custom | Open |
-
-> Donne-moi les URLs ou numéros réels et je l’intégrerai. Tu peux aussi utiliser la section pour suivre ta progression de contributions.
-
----
-
-## 📊 Statistiques & Activité
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anaslahboub&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anaslahboub&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anaslahboub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
-</p>
-
-
-## 🕒 Timeline de Progression
-
-| Période | Focus | Résultats / Apports |
-|---------|-------|---------------------|
-| 2024 (T1–T2) | Microservices & Messaging | Conception plateforme chat (WebSocket, fil social, auth Keycloak) |
-| 2024 (T3) | Gestion métier & data | Système pharmacie (stocks, ordonnances, optimisation requêtes) |
-| 2024 (T4) | Sécurité & Auth | Intégration OAuth2, JWT, rôles, consolidation Spring Security |
-| 2025 (T1) | Observabilité & Résilience | Ajout retry, circuit breaker, métriques, logs structurés |
-| 2025 (T2) | Stage PFE | (À définir — préciser missions, KPIs une fois commencé) |
-
----
-
 ## 🎓 Formation & Certifications
 
 **ENSA Agadir – Cycle Ingénieur Informatique (5ᵉ année)**  
