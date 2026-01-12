@@ -55,7 +55,7 @@ Adapte les sections (projets, liens, contributions) avec des données réelles.
 ## FR – Profil
 
 ### 🚀 À propos
-Étudiant en 5ᵉ année d’ingénierie informatique à l’ENSA Agadir, spécialisé en **développement web full‑stack**, **Java / Spring Boot**, **React**, et **architecture microservices**. Passionné par les technologies modernes, la qualité logicielle, les systèmes distribués et le DevOps.
+Étudiant en 5ᵉ année d’ingénierie informatique l’ENSA Agadir, spécialisé en **développement web full‑stack**, **Java / Spring Boot**, **React**, et **architecture microservices**. Passionné par les technologies modernes, la qualité logicielle, les systèmes distribués et le DevOps.
 
 - 🎯 Objectif (PFE 2025) : Intégrer une équipe pour un stage PFE (4–6 mois) afin de concevoir des systèmes robustes à forte valeur ajoutée.
 - 🔍 Centres d’intérêt : Architecture propre, résilience, performance backend, sécurisation OAuth2 / JWT / Keycloak.
