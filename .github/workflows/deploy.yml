@@ -16,6 +16,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_DEPLOY_ENV: GH_PAGES
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,8 +31,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Build with Next.js
-        run: npm run build
+      - name: Build with Next.js and export
+        run: |
+          npm run build
+          npm run export
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
