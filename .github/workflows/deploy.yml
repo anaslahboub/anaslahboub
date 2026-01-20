@@ -34,6 +34,13 @@ jobs:
       - name: Build with Next.js
         run: npm run build
         
+      - name: Restructure for GitHub Pages basePath
+        run: |
+          mkdir -p out/AnasLahboub
+          find out -maxdepth 1 -type f -o -type d | grep -v "^out$" | grep -v "AnasLahboub" | while read item; do
+            [ -e "$item" ] && mv "$item" out/AnasLahboub/ || true
+          done
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
