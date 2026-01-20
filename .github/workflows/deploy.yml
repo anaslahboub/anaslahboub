@@ -34,6 +34,20 @@ jobs:
       - name: Build with Next.js
         run: npm run build
         
+      - name: Move output under /AnasLahboub for GH Pages basePath
+        shell: bash
+        run: |
+          mkdir -p out/AnasLahboub
+          shopt -s dotglob
+          for item in out/*; do
+            name=$(basename "$item")
+            if [ "$name" = "AnasLahboub" ]; then
+              continue
+            fi
+            mv "$item" out/AnasLahboub/
+          done
+          shopt -u dotglob
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
